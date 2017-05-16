@@ -14,5 +14,4 @@ Rails.application.config.assets.precompile += %w( hyper-console-client.css )
 Rails.application.config.assets.precompile += %w( hyper-console-client.min.js )
 Rails.application.config.assets.precompile += %w( action_cable.js )
 
-Rails.application.config.assets.precompile += %w( react-server.js)
-Rails.application.config.assets.precompile += %w( components.js)
+Rails.application.config.assets.precompile += %w( react-server.js components.js )
