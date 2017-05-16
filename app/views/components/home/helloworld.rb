@@ -5,6 +5,7 @@ module Components
 
         render(DIV) do
           H1 {"You said 'Hello world' #{Counter.tries} time#{(Counter.tries)>1 ? 's':''}"}
+          H1 {""}
           BUTTON(class: 'btn btn-info') { "Click to say hello World" }.on(:click) do
             CounterOp.run
           end
